@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Shapely Child
+ Theme URI:
+ Description:  Shapely Child Theme
+ Author:       Tomáš Bartolen
+ Author URI:
+ Template:     shapely
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  shapely-child
+*/
+body {
+    font-size: 20px;
+}
+.image-bg h3, .image-bg h1 {
+    color: #c55252;
+}
+
+.cover p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bg-secondary {
+    background-color: #fefefe!important;
+}
+
+
+.btn-outline-headpink {
+    color: #c55252!important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #c55252!important; }
+
+.top-parallax-section .text-shadow {
+
+    text-shadow: 2px 2px black;
+}
+
+.site-title{
+    transform: translateX(-50%) rotate(-10deg);
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;}
+
+.site-title span {
+    transform: skew(-10deg);
+    display: block;
+    float: left;
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
